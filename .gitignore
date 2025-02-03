@@ -7,9 +7,6 @@ __pycache__/
 # Django SQLite Database
 db.sqlite3
 
-# Django migrations
-faq_project/migrations/
-
 # Virtual environment
 venv/
 *.env
@@ -18,11 +15,8 @@ venv/
 .pytest_cache/
 
 # IDE files
-.idea/
 .vscode/
 
-# Flask environment files
-instance/
 
 # Docker files
 Dockerfile
@@ -36,9 +30,3 @@ docker-compose.yml
 
 # Flake8 configuration
 .flake8
-
-# Coverage reports
-coverage.xml
-*.cover
-*.hypothesis/
-*.tox/
